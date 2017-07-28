@@ -1,0 +1,126 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  margin-left: 0;
+  margin-right: 0;
+}
+.ajeel_button {
+  text-decoration: none;
+  background-color: #41a061;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 16px;
+}
+.ajeel_input {
+  display: block;
+  width: calc(100% - 40px);
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid grey;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.login_image {
+  width: 350px;
+}
+.login_container {
+  text-align: center;
+}
+.login_form {
+  width: 50%;
+  margin: auto;
+}
+.login_buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 6rem;
+}
+.menu__item {
+  width: 50%;
+  color: white;
+  text-decoration: none;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__label {
+  background-color: #41a061;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 16px;
+}
+.menu__item.cthulhuGame {
+  background-image: url('../images/cthulhu2.jpg');
+}
+.menu__item.apples {
+  background-image: url('../images/apples.jpg');
+}
+.menu__item.leanUx {
+  background-image: url('../images/leanUX.jpg');
+}
+.menu__item.ssk {
+  background-image: url('../images/startstop2.jpg');
+}
+.cthulhu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+}
+.cthulhu_category {
+  width: 50%;
+}
+.cthulhu_label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.cthulhu_input {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.cthulhu_image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+.cthulhu_image.sun {
+  background-image: url('../images/sun.png');
+}
+.cthulhu_image.sail {
+  background-image: url('../images/sailboat.png');
+}
+.cthulhu_image.anchor {
+  background-image: url('../images/anchor.png');
+}
+.cthulhu_image.monster {
+  background-image: url('../images/cthuhlu.jpg');
+}
+.cthulhu_buttonContainer {
+  margin: 20px 0;
+  text-align: center;
+}
+.stickyForm_form {
+  width: 400px;
+  height: 400px;
+}
